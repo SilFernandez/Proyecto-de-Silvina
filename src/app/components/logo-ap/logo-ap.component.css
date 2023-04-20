@@ -27,6 +27,6 @@ img{
      align-items: center;
      }
      .redes img{
-     margin: 0.3em;
+     margin: 0.3em;   /*era 3*/
      } 
 }
