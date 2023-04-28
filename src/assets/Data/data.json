@@ -1,0 +1,49 @@
+{
+    "name": "Silvina Fernandez",
+    "backImage": "",
+    "image": "",
+    "position": "estudiante",
+    "company": {
+        "name": "",
+        "img":"",
+        "url": "#"
+    },
+    "school": {
+        "img":"",
+        "url":"#"
+    },
+    "ubication": "Buenos Aires (Argentina)",
+    "about": "",
+    "experience": [{
+        "position":"",
+        "company":"",
+        "img":"",
+        "mode":"",
+        "start":"",
+        "end":"",
+        "timeElapsed":""
+    }],
+    "education": [{
+        "school": "",
+        "title":"",
+        "img":"",
+        "career": "",
+        "score": "",
+        "start":"",
+        "end":""
+    },
+    {
+        "school": "",
+        "title":"",
+        "img":"",
+        "career": "",
+        "score": "",
+        "start":"",
+        "end":""
+    }
+    ],
+    "aptitudes": [{
+        "name":"",
+        "progress": ""
+    }]
+}
