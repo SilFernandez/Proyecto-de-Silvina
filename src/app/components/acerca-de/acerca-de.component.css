@@ -10,7 +10,7 @@ div{
     #fotoperfil{
         position: absolute;
         width: 15%;
-        border-radius: 80%;
+        border-radius: 10%;
         box-shadow: 3px 3px 3px rgb(104, 103, 103);
         left: 3%;
         top: 150px;
@@ -21,15 +21,16 @@ div{
     #fotoperfil{
         position: absolute;
         width: 30%;
-        border-radius: 80%;
+        border-radius: 10%;
         box-shadow: 3px 3px 3px rgb(104, 103, 103);
         left: 33%;
-        top: 400px;
+        top: 300px;
     }
 }
 
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 14%;
+
 }
