@@ -7,8 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class PorfolioService {
 
-  constructor(private http:HttpClient) { }
-  obtenerDatos(): Observable <any> {
-    return this.http.get('../../assets/data/data.json'); 
+  constructor() { } /*private http:HttpClient... para hacer las peticiones que necesito*/
+  obtenerDatos() {     /*   Observable <any>     metodo observable: los componentes que las consuman 
+  puedan suscrbirse para la respuesta*/
+    console.log('El servicio esta corriendo'); /* return this.http.get */
   }
 }

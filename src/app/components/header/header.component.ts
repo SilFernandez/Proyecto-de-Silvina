@@ -7,13 +7,13 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  miPorfolio: any;
+  /*miPorfolio: any;*/                /* */
   constructor(private datosPorfolio:PorfolioService){}
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.miPorfolio=data;
-    });
+    this.datosPorfolio.obtenerDatos();       /* .subscribe(data =>{   */
+       /* console.log(data);
+      this.miPorfolio=data;    
+    });*/
  }
 }
