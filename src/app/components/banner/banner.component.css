@@ -1,4 +1,7 @@
-img{
+div#profile-background{
+    display:flex;
+    z-index: 1;
+    }
+div#profile-background img{
     width: 100%;
-    height: 200px;
-}
+    }

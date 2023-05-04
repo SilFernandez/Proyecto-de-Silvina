@@ -1,9 +1,10 @@
-.row{
-    padding: 20;
+.card mat-card{
+    /*padding: 15px;*/
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;  /*esto es un comentario en css*/
+    border-color:rgb(73, 72, 72); /*color de borde*/
 }
 div{
     background-color: rgb(170, 169, 169);
-}
-h2,h4{
-    display: inline;
 }

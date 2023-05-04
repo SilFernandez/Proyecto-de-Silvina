@@ -1,15 +1,21 @@
-.row{
-    padding: 15px;
+.card mat-card{
+    /*padding: 15px;*/
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;  /*esto es un comentario en css*/
+    border-color:rgb(73, 72, 72); /*color de borde*/
 }
 div{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(222, 222, 222);
 }
 
+
 /*stylo de fotoperfil*/
+
 @media (min-width:576px){
     #fotoperfil{
         position: absolute;
-        width: 13%;
+        width: 12%;
         border-radius: 50%;
         box-shadow: 3px 3px 3px rgb(104, 103, 103);
         left: 80%;
@@ -23,16 +29,16 @@ div{
         width: 30%;
         border-radius: 50%;
         box-shadow: 3px 3px 3px rgb(104, 103, 103);
-        left: 33%;
+        left: 0%;
         top: 300px;
     }
 }
 
 
 
-/*etiqueta nombre*/
+/*nombre*/
 div#info-contact span a{
-    color: #0a66c2;
+    color: #405163;
     touch-action: manipulation;
     text-decoration: none;
 }
@@ -51,6 +57,6 @@ div#info-data h1{
     font-weight: 500;
     line-height: 1.25;
     word-wrap: break-word;
-    word-break:break-word; /*ver  ojo*/
+    word-break:break-word; /*ver*/
 }
 
