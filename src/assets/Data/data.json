@@ -1,49 +1,35 @@
 {
-    "name": "Silvina Fernandez",
-    "profile-background": "",
-    "image": "",
-    "position": "",
-    "company": {
-        "name": "",
-        "img":"",
-        "url": "#"
-    },
-    "school": {
-        "img":"",
-        "url":"#"
-    },
-    "ubication": "Buenos Aires (Argentina)",
-    "about": "",
-    "experience": [{
-        "position":"",
-        "company":"",
-        "img":"",
-        "mode":"",
-        "start":"",
-        "end":"",
-        "timeElapsed":""
-    }],
-    "education": [{
-        "school": "",
-        "title":"",
-        "img":"",
-        "career": "",
-        "score": "",
-        "start":"",
-        "end":""
-    },
-    {
-        "school": "",
-        "title":"",
-        "img":"",
-        "career": "",
-        "score": "",
-        "start":"",
-        "end":""
-    }
+    "Persona": [
+        {
+            "id":"1",
+            "nombre": "Silvina Fernandez",
+            "apellido": "Silvina Fernandez",
+            "fecha_Nac": "02/10/1987",
+            "nacionalidad": "Argentino",
+            "mail": "silvina@gmail.com",
+            "acerca_mi": "Estudiante de Artes Visuales.",
+            "ocupacion": "Programador Full Stack",
+            "profile-background": "http://",
+            "image": "http://",
+            "id_domicilio": "2"
+        }
     ],
-    "aptitudes": [{
-        "name":"",
-        "progress": ""
-    }]
+
+    "educacion": [
+        {
+            "escuela":"UNA",
+            "titulo": "Licenciatura en Artes Visuales",
+            "imagen": "http://www.una..",
+            "carrera": "Licenciatura en Artes visuales",
+            "fechaInicio": "2013",
+            "fechaFin": "2023"
+        },
+        {
+            "escuela":"Nacional de Adrogue",
+            "titulo": "Bachiller en Ciencias Sociales",
+            "imagen": "http://www.",
+            "fechaInicio": "2003",
+            "fechaFin": "2005"
+        }
+    ]
 }
