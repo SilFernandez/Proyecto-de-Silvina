@@ -1,3 +1,9 @@
+#logoAP{
+    width: 130px; /*con # modifico el tamaño de logo Arg Prog */
+    
+}
+            
+/*
 .container{
     display: flex;
     justify-content: space-between;
@@ -16,7 +22,8 @@ img{
 .btn{
     border-width: medium;
 }
-/*para la vista en celu*/
+
+para la vista en celu
 @media (max-width: 575px){ 
      .container{
      flex-direction: column;
@@ -27,6 +34,7 @@ img{
      align-items: center;
      }
      .redes img{
-     margin: 0.3em;   /*era 3*/
+     margin: 0.3em;   
      } 
 }
+*/

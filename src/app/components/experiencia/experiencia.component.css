@@ -1,25 +1,9 @@
-.card mat-card{
-    /*padding: 15px;*/
-    border-radius: 32px;
-    margin: 10px 10px;
-    padding: 20px;  /*esto es un comentario en css*/
-    border-color:rgb(73, 72, 72); /*color de borde*/
+.row{
+    padding: 20px;
 }
 div{
     background-color: rgb(222, 222, 222);
 }
-
-ul.items-list{
-    list-style: none inside;
-}
-ul.items-list li{
-    display: flex;
-    margin: 10px 0;
-}
-ul.items-list li div.data-container{
-    flex-grow: 1;
-}
-ul.items-list li div.data-container a{
-    display: flex;
-    color: black;
+h2, h3{
+    display: inline; 
 }
