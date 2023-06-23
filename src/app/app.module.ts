@@ -10,7 +10,7 @@ import{ BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
-import { RedsocialComponent } from './components/redsocial/redsocial.component';
+
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
@@ -27,7 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     LogoAPComponent,
-    RedsocialComponent,
+   
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,

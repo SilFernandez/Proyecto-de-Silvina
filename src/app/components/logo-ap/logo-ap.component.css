@@ -1,40 +1,43 @@
-#logoAP{
-    width: 130px; /*con # modifico el tamaño de logo Arg Prog */
-    
-}
-            
-/*
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*uno en una punta y otros en la otra*/
     align-items: center;
 }
+
 .redes{
     margin-right: 0.5em;
 }
 
 #logoAP{
-    width: 100px;
+    width: 130px; /*con # modifico el tamaño de logo Arg Prog */
+    
 }
 img{
-    width: 26px;
+    width: 30px; /*logo redes sociales*/
+    margin-top: 10px;   /*margen arriba*/
+    margin-right: 10px;     /*margen derecho*/
+    margin-bottom: 10px;     /*margen debajo*/
 }
+
 .btn{
     border-width: medium;
 }
 
-para la vista en celu
-@media (max-width: 575px){ 
-     .container{
-     flex-direction: column;
-     }
-     .redes{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     }
-     .redes img{
-     margin: 0.3em;   
-     } 
+ /*--- vista celu ---*/   
+ @media (max-width: 575px){ 
+    .container{
+    flex-direction: column;
+    }
+    .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .redes img{
+    margin: 0.3em;   
+    } 
 }
-*/
+ 
+ 
+
+/*-----------*/
